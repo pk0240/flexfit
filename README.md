@@ -11,6 +11,12 @@ through harder levels.\
 Users can log into the application using their Fitbit credentials to retrieve daily step activity that
 is used for the progression of the game. Those steps will directly be added to their current stepcoin currency in the game.
 
+![Alt text](Images/Cap1.PNG?raw=true "Gameplay")
+
+![Alt text](Images/Cap2.PNG?raw=true "Gameplay")
+
+![Alt text](Images/Cap3.PNG?raw=true "Gameplay")
+
 ## Running the Game ##
 HOW TO RUN.txt outlines how to run the application. However please not that the server is hosted
 on a personal computer so the website and game will not run if the server is not active.
@@ -22,15 +28,21 @@ System Requirements for Unity:\
 OS : Windows 7 SP1+, 8, 10, 64-bit versions only; Mac OS X 10.11+.\
 GPU: Graphics card with DX10 (shader model 4.0) capabilities.
 
-## Controls and Gameplay ##
-
-![Alt text](Images/Capture.PNG?raw=true "Gameplay")
+## Controls ##
 
 Action  	  	| Controls
 --------------- | -------------
 Walk Left 	  	| Left Keyboard arrow or 'A'
 Walk Right	  	| Right keyboard arrow or 'D'
 Jump		  	| Spacebar
+
+## Gameplay ##
+
+![Alt text](Images/Cap4.PNG?raw=true "Gameplay")
+
+![Alt text](Images/Cap5.PNG?raw=true "Gameplay")
+
+![Alt text](Images/Cap6.PNG?raw=true "Gameplay")
 
 
 
