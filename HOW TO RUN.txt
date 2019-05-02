@@ -1,0 +1,35 @@
+SMEEDS - Steppy Guiseppe
+IT Major Project
+
+--------------------------------------
+-------- To run the prototype --------
+--------------------------------------
+
+The game is hosted on a live website. To run the game, please enter 
+the following link in a web browser and the website will run:
+
+https://smeedsgaming.azurewebsites.net 
+
+Please ensure you have enough step coins to test the game properly.
+Leveling up speed costs 1000 steps.
+Leveling up jump costs 4000 steps. 
+
+If you are not re-directed to the game directly, you can use the direct link:
+http://10.222.168.98/index.html
+
+To test the game with data already in it, login to fitbit using:
+username: Max.Peterson@uon.edu.au
+password: Smeeds123
+
+--------------------------------------
+----------- Important Note -----------
+--------------------------------------
+Because the server is hosted on a personal computer, there are times the server may be down
+and the website and game will not run. 
+You can still play the game by opening the builded run file:
+	- Artefact/BuildGame/index.html
+
+
+
+
+
