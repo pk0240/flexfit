@@ -1,0 +1,421 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+    background-color: rgb(220,220,220); /* Light grey */
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 190px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form-group {
+    background-color: white;
+}
+
+/* Fix navbar in place on scroll*/
+.affix {
+    top: 40px; /*how much to be displayed on scroll*/
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+    .affix + .container {
+        padding-top: 10px;
+    }
+
+.banner {
+    width: 100%;
+    height: 200px;
+    background-color: #111111;
+    background-image: url('../Images/image.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -245px;
+}
+
+.logo {
+    position: relative;
+    left: 43%;
+    height: 130px;
+    background-image: url('../Images/logo.png');
+    background-repeat: no-repeat;
+}
+
+.loginBar {
+    background-color: rgb(70,70,70);
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.login {
+    background: rgb(0,210,255); /* Blue */
+    font-size: 14pt;
+    font-weight: bold;
+    /* margin-top: 5px;
+    margin-right: 20px; */
+    float: right;
+    /* -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px; */
+    padding: 0px 60px 0px 60px;
+    text-decoration: none;
+}
+
+    .login:hover {
+        background: rgb(0,191,255);
+        cursor: pointer;
+    }
+
+h1 {
+    color: rgb(70,70,70);
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h3, p {
+    color: rgb(80,80,80);
+}
+
+h4 {
+    color: rgb(80,80,80);
+    text-align: center;
+}
+
+hr {
+    border-color: rgb(200,200,200);
+}
+
+.nav {
+    background-color: rgb(70,70,70);
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-left: 80px;
+    display: inline-block;
+}
+
+.navList {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+}
+
+.photo {
+    padding: -10px;
+    display: inline;
+}
+
+.nav a, .navList {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .navList:hover {
+        background-color: white;
+        color: rgb(70,70,70);
+    }
+
+        .navList:hover a {
+            color: rgb(70,70,70);
+        }
+
+.box {
+    display: none;
+    background-color: white;
+}
+
+.navList:hover .box {
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -20%;
+}
+
+.navList:hover .user {
+    margin-left: -28px;
+}
+
+.navList:hover .manage {
+    margin-left: -30px;
+    height: auto;
+}
+
+.dropdownLinks {
+    float: left;
+    margin: 10px;
+    width: 100px;
+    display: inline-block;
+}
+
+    .dropdownLinks a {
+        display: block;
+    }
+
+        .dropdownLinks a:hover {
+            color: white;
+            background-color: grey;
+        }
+
+
+
+.itemContainer {
+    width: 100%;
+    background-color: #111111;
+    margin-top: 30px;
+}
+
+.item {
+    margin: 20px;
+    height: 340px;
+    background-color: rgb(240,240,240); /* Light grey */
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 30px;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.5);
+}
+
+.navigation {
+    background-color: rgba(90,90,90,0.05);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 20px 5px;
+    color: white;
+    text-decoration: none;
+    /*
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3); */
+}
+
+.category {
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    color: grey;
+}
+
+.navSelect, .navSelect:visited {
+    color: grey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+    .navSelect:hover {
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+        color: white;
+    }
+
+.item img {
+    width: 100px;
+    padding-top: 10px;
+}
+
+.itemDesc {
+    padding: 10px;
+    color: grey;
+    margin-bottom: -20px;
+}
+
+.itemTypeBtn {
+    width: 150px;
+    background-color: #ff1a1a;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 2px;
+    color: white;
+}
+
+    .itemTypeBtn:hover {
+        background-color: indianred;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.linkToSub a:hover {
+    background-color: lightgrey;
+    text-decoration: none;
+}
+
+.addToCartButton {
+    width: 100%;
+    background-color: #0c86db; /* Blue */
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+    .addToCartButton:hover {
+        text-decoration: none;
+        cursor: pointer;
+        background-color: rgb(0,150,255); /* Blue */
+    }
+
+/* Check out */
+.coItem, .shipCost, .otherCost {
+    padding: 10px;
+    border: solid 1px grey;
+}
+
+.checkOutItems, .coItem, .otherCost {
+    margin-top: 5px;
+    width: 500px;
+    text-align: left;
+    height: auto;
+    background-color: rgb(240,240,240); /* Light grey */
+}
+
+    .coItem img {
+        width: 50px;
+    }
+
+.coItemPrice, .shipPrice, .coItemQuantity {
+    font-size: 50px;
+    font-weight: bold;
+    display: inline;
+    float: right;
+    margin-top: -10px;
+}
+
+.coItemQuantity {
+    font-size: 20px;
+    right: 40px;
+}
+
+.otherCost {
+    border-radius: 10px;
+}
+
+.shipPrice {
+    font-size: 30px;
+    float: none;
+}
+
+.innerTitle {
+    font-size: 30px;
+}
+
+.button, .payButton, .checkOut, #loginButton1, #logoutButton {
+    width: 100px;
+    height: 40px;
+    background-color: #567890;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+#loginButton1, #logoutButton {
+    border-style: none;
+}
+
+    #loginButton1:hover {
+        background-color: #0de081
+    }
+
+    #logoutButton:hover {
+        background-color: #e84242
+    }
+
+.logs {
+    position: absolute;
+    float: right;
+    top: -240px;
+    right: 0;
+    z-index: 99 !important;
+}
+
+.payButton:hover, .checkOut:hover {
+    background-color: #2ace99;
+}
+
+.checkOut, .makePayment {
+    width: 70%;
+    font-size: 20px;
+    height: 50px;
+    margin: 10px auto;
+    display: block;
+    text-decoration: none;
+}
+
+.payType {
+    height: 300px;
+    width: 500px;
+    background-color: #efefef;
+    padding: 50px 10px 0px 100px;
+}
+
+.makePayment {
+    margin-left: 2px;
+}
+
+.receipt {
+    padding: 20px;
+}
+
+    .receipt > .coItem {
+        width: 100%;
+    }
+
+.inputText {
+    width: 600px;
+}
+
+.validateMessage {
+    color: red;
+    font-style: italic;
+}
+
+.button {
+    background-color: green;
+}
+
+/*Table stuff yeah*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #567890;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

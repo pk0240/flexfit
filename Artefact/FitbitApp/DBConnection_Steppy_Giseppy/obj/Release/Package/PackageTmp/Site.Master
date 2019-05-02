@@ -1,0 +1,44 @@
+﻿<%--<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DBConnection_Steppy_Giseppy.SiteMaster" %>--%>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <asp:ContentPlaceHolder id="head" runat="server"> </asp:ContentPlaceHolder>
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="Content/main.css" />
+
+</head>
+<body>
+    <form runat="server">
+        
+            <header id="header" class="alt" style="background-color:black; margin-top:-25px; position:fixed;">
+				<div class="logo"><a href="Default.aspx"> 
+                    <span style="color:white">Steppy Giuseppe </span> 
+                    <span style="color:cornflowerblue">by SMEEDSGaming</span> 
+             </a></div>				
+			</header>
+
+             
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - SMEEDS Gaming</p>
+            </footer>
+        </div>
+        <!-- Scripts -->
+			<script src="Scripts/js/jquery.min.js"></script>
+			<script src="Scripts/js/jquery.scrolly.min.js"></script>
+			<script src="Scripts/js/jquery.scrollex.min.js"></script>
+			<script src="Scripts/js/skel.min.js"></script>
+			<script src="Scripts/js/util.js"></script>
+			<script src="Scripts/js/main.js"></script>
+    </form>
+</body>
+</html>
