@@ -6,8 +6,7 @@ The purpose of this game is to educate young children about eating healthy and e
 entertaining way. Players connect their fitbit device and fitbit account to the game and trade in their step count for ingame currency
 known as ‘Stepcoins’. These in-game stepcoins can be traded in the game to level up attributes such as 
 speed or jump height. As the player buys more of these attributes, they are able to progress
-through harder levels.\
-
+through harder levels.
 
 ![Alt text](Images/Cap1.PNG?raw=true "Gameplay")
 
