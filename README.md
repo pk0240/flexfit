@@ -1,4 +1,4 @@
-# FitBit Game App #
+# fitbit-game-app #
 
 ## About ##
 A platformer video game that is based in the edu-tainment genre. The purpose of this game is to educate young children about eating healthy and exercising in an entertaining way. 
