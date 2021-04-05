@@ -11,15 +11,11 @@ Basic game functions include:
 
 ## To Run ##
 
-### Production Mode ###
-
 HOW TO RUN.txt outlines how to run the application. 
 
 ### However please note that the server is hosted on a personal computer so the website and game will not run if the server is not active. ###
 
 You can play the executable file, index.html (located in Artefact\BuildGame\index.html) at the game will open in a web browser.\
-
-### Development Mode ###
 
 To run the game using unity, please ensure you have installed Unity on your PC (2017
 versions or higher).\
