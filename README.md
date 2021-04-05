@@ -4,19 +4,23 @@
 A platformer video game that is based in the edu-tainment genre. The purpose of this game is to educate young children about eating healthy and exercising in an entertaining way. 
 
 Basic game functions include:
-* Players connect their fitbit device and fitbit account to the game and trade in their step count for ingame currency known as ‘Stepcoins’. 
-* These in-game stepcoins can be traded in the game to level up attributes such as speed or jump height. 
+* Players can login to their fitbit account via the game.
+* The user's daily steps will be imported into the game as in-game currency, known as 'stepcoins'. 
+* These in-game stepcoins can be used to level up attributes such as speed or jump height. 
 * As the player buys more of these attributes, they are able to progress through harder levels.
 
-Users can log into the application using their Fitbit credentials to retrieve daily step activity that
-is used for the progression of the game. Those steps will directly be added to their current stepcoin currency in the game.
-
 ## To Run ##
+
+### Production Mode ###
+
 HOW TO RUN.txt outlines how to run the application. 
 
 ### However please note that the server is hosted on a personal computer so the website and game will not run if the server is not active. ###
 
 You can play the executable file, index.html (located in Artefact\BuildGame\index.html) at the game will open in a web browser.\
+
+### Development Mode ###
+
 To run the game using unity, please ensure you have installed Unity on your PC (2017
 versions or higher).\
 \
