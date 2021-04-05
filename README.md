@@ -1,7 +1,7 @@
 # FitBit Game App #
 
 ## About ##
-Steppy Giuseppe is a platformer video game that is based in the edu-tainment genre. The purpose of this game is to educate young children about eating healthy and exercising in an entertaining way. 
+A platformer video game that is based in the edu-tainment genre. The purpose of this game is to educate young children about eating healthy and exercising in an entertaining way. 
 
 Basic game functions include:
 * Players connect their fitbit device and fitbit account to the game and trade in their step count for ingame currency known as ‘Stepcoins’. 
